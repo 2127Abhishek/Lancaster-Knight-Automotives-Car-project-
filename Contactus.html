@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - Lancaster & Knight Automotives</title>
+  <style>
+    body {
+      background-color: white;
+      font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 80px auto;
+      padding: 40px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 40px;
+      margin-bottom: 10px;
+      color: #111;
+      font-weight: bold;
+    }
+    p.subtext {
+      text-align: center;
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 50px;
+    }
+    form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 60px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 15px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      outline: none;
+      transition: 0.3s;
+    }
+    input:focus, textarea:focus {
+      border-color: #000;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+    textarea {
+      grid-column: 1 / span 2;
+      resize: none;
+    }
+    button {
+      grid-column: 1 / span 2;
+      padding: 15px;
+      font-size: 18px;
+      background-color: #000;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #333;
+    }
+    .info-blocks {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-top: 20px;
+    }
+    .block {
+      background: #d6d6d6;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .block img {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 15px;
+    }
+    .block h2 {
+      font-size: 22px;
+      color: #111;
+      margin-bottom: 10px;
+    }
+    .block p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 10px;
+    }
+    .block a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+    .block a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Contact Us</h1>
+  <p class="subtext">We’re always happy to assist you with any queries or concerns.</p>
+
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="6" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="info-blocks">
+    <div class="block">
+      <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="Phone Icon">
+      <h2>Phone</h2>
+      <p>Our experts are available from 9AM - 9PM everyday to assist you.</p>
+      <p><strong>Call:</strong><br> <a href="tel:+919876543210">+91 98765 43210</a></p>
+    </div>
+    <div class="block">
+      <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email Icon">
+      <h2>Email</h2>
+      <p>Get a confirmation email immediately. We usually respond within 3-5 days.</p>
+      <p><strong>Email:</strong><br> <a href="mailto:support@lancasterknightauto.com">support@lancasterknightauto.com</a></p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

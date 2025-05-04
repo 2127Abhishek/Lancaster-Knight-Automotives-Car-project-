@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car Dealership - Service Center</title>
+  <link rel="stylesheet" href="service-center.css" />
+</head>
+<body>
+
+  <section class="service-center">
+    <h2>Our Service Center</h2>
+    <p class="service-description">
+      We offer high-quality maintenance and repair services to keep your vehicle running smoothly and safely.
+    </p>
+
+    <div class="services">
+      <div class="service-box">
+        <h3>Oil Change</h3>
+        <p>Quick and affordable oil change service to keep your engine in top condition.</p>
+      </div>
+      <div class="service-box">
+        <h3>Brake Inspection</h3>
+        <p>Ensure your safety with our expert brake system inspection and repair.</p>
+      </div>
+      <div class="service-box">
+        <h3>Engine Diagnostics</h3>
+        <p>Advanced diagnostics tools to identify and fix engine issues efficiently.</p>
+      </div>
+    </div>
+
+    <form class="booking-form" id="bookingForm">
+      <h3>Book a Service Appointment</h3>
+
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="service">Service Type:</label>
+      <select id="service" name="service" required>
+        <option value="">--Select--</option>
+        <option value="oil">Oil Change</option>
+        <option value="brake">Brake Inspection</option>
+        <option value="engine">Engine Diagnostics</option>
+      </select>
+
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" name="date" required />
+
+      <button type="submit">Submit</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <script src="javascript.js"></script>
+</body>
+</html>

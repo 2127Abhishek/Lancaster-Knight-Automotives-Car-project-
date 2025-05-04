@@ -1,0 +1,161 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 22em;
+    color: #1a1a1a;
+  }
+  
+  .faq-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  details[open] {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    padding-right: 25px;
+  }
+  
+  summary::after {
+    content: '+';
+    position: absolute;
+    right: 0;
+    font-size: 1.2em;
+    transition: transform 0.3s ease;
+  }
+  
+  details[open] summary::after {
+    content: '-';
+    transform: rotate(180deg);
+  }
+  
+  details p {
+    margin-top: 10px;
+    padding-left: 20px;
+    color: #000000;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 100em;
+    color: #000000;
+  }
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.faq-container {
+  max-width: 75%;
+  margin:auto;
+}
+
+details {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+details[open] {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  padding-right: 25px;
+}
+
+summary::after {
+  content: '+';
+  position: absolute;
+  right: 0;
+  font-size: 1.2em;
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+  content: '-';
+  transform: rotate(180deg);
+}
+
+details p {
+  margin-top: 10px;
+  padding-left: 20px;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 1.3em;
+  color: #3a3a3a;
+}
+  

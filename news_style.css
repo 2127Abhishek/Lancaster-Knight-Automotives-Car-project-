@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,rgb(20, 19, 19) , rgb(44, 42, 42));
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.news {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    max-width: 700px;
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.news h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.news h2::after {
+    content: 'Automotive News';
+    display: block;
+    font-size: 1rem;
+    margin-top: 5px;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+.scrolling-news {
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+}
+
+.scrolling-news .inner {
+    display: flex;
+    flex-direction: column;
+    animation: scrollUp 20s linear infinite;
+}
+
+.scrolling-news:hover .inner {
+    animation-play-state: paused;
+}
+
+.article {
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid #ddd;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.article h3 {
+    margin: 0;
+    color: #1a1a1a;
+}
+
+.article p {
+    margin: 0.5rem 0 0;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.article em {
+    display: block;
+    font-size: 0.85rem;
+    color: #999;
+    margin-bottom: 0.5rem;
+}
+
+@keyframes scrollUp {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100%); }
+}

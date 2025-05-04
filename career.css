@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(32, 27, 27,3);
+    color: black;
+}
+
+.career {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background:white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #cc00ff;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #33a833;
+}
+
+.positions {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.positions li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.positions li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #1a4d2e;
+}
+
+.apply {
+    text-align: center;
+}
+
+.apply a {
+    color: #1a4d2e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.apply a:hover {
+    text-decoration: underline;
+}
+.scrolling-text {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: rgba(32, 27, 27,3);
+    color: #fff;
+    padding: 12px 0;
+    font-weight: bold;
+    font-size: 1rem;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    animation: scroll-left 15s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+body {
+    padding-top: 50px;
+}
+.logo {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
+}

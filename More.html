@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Car Finder - More Info</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 30px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .btn-more {
+      display: block;
+      margin: 20px auto;
+      background-color: #0066cc;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-more:hover {
+      background-color: #004999;
+    }
+
+    #moreSection {
+      display: none;
+      margin-top: 30px;
+      animation: fadeIn 0.4s ease-in-out;
+    }
+
+    .info-section {
+      margin-bottom: 30px;
+    }
+
+    .info-section h2 {
+      color: #0055a5;
+      margin-bottom: 10px;
+    }
+
+    .info-section p {
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .social-links a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #0066cc;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #003366;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Car Finder</h1>
+    <button class="btn-more" id="toggleBtn" onclick="toggleMore()">More About This App</button>
+        <div id="moreSection">
+            <div class="info-section">
+              <h2>About This App</h2>
+              <p>Car Finder helps users discover, compare, and explore car models effortlessly. Designed with a user-friendly interface, it’s perfect for buyers, enthusiasts, and researchers alike.</p>
+            </div>
+      
+            <div class="info-section">
+              <h2>About the Company</h2>
+              <p>We are AutoView Tech — a passionate team focused on simplifying automotive decisions using smart tools and clean UI. Our goal is to make car research modern, fast, and fun.</p>
+            </div>
+      
+            <div class="info-section">
+              <h2>Contact & Social</h2>
+              <p>We’d love to hear from you! Reach out via email or follow us:</p>
+              <div class="social-links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <script>
+          function toggleMore() {
+            const section = document.getElementById('moreSection');
+            const button = document.getElementById('toggleBtn');
+      
+            if (section.style.display === 'none' || section.style.display === '') {
+              section.style.display = 'block';
+              button.textContent = 'Hide Info';
+            } else {
+              section.style.display = 'none';
+              button.textContent = 'More About This App';
+            }
+          }
+        </script>
+      </body>
+      </html>

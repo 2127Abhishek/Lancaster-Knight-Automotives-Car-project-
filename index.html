@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTIH</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+     <!-- navigation bar -->
+        <div class="box">
+            <div  class="nav-logo">
+                <div class="logo"></div>
+            </div>
+            <div class="company-name">
+                <h2>Lancaster & Knight Automotives</h2>
+            </div>
+            <div class="search-input">
+               <button style="background-color: black;border:none" id="searchButton"><i class="fa-solid fa-magnifying-glass" style="color:white"></i></button>
+                <input 
+                    placeholder="Search car models" 
+                    id="search"
+                    autocomplete="off"
+                    style="background-color: black; color: white; border: none; font-size: medium; font-weight: bold;"
+                >
+                <div id="suggestions"></div>
+            </div>
+            <script src="javascript.js"></script>
+        
+            <div class="user-menu">
+               
+                <div class="user-logo">
+                <i class="fa-regular fa-user" style="color: white;"></i>
+                <div class="dropdown">
+                   <div class="A"><a href="signup.html">Sign Up</a></div>
+                    <div class="B"><a href="signin.html">Login</a></div>
+                </div> 
+                </div>
+                <div class="more-i">
+                <i class="fa-solid fa-circle-info" style="color: white;"></i>
+                <div class="dropdown2">
+                    <div class="C"><a href="More.html">more</a></div>
+                </div>
+                </div>
+                </div> 
+            </div> 
+        <div class="outer-border-division">
+            <div class="border-white">
+
+            </div>
+        </div>
+    <!-- car video -->
+        <div class="hero">
+            <video autoplay loop muted playsinline>
+                <source src="Car.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay">
+                <h1></h1>
+            </div> 
+        </div> 
+    <!-- Car Images -->
+     
+     <div class="image-slider">
+        <div class="image-wrapper">
+            <img class="first-image" src="audi2.jpeg" alt="BMW">
+            <img class="second-image" src="lamborghini.jpg" alt="Rolls-Royce">
+            <img class="third-image" src="lambo.jpg" alt="bugatti">
+        </div>
+    </div>
+    <!-- About section -->
+    <div class="about">
+        <h2>About Cars</h2>
+        <p>Elevate your journey with unmatched luxury, blending elegance and cutting-edge performance</p>
+    </div>
+    <div class="mod">
+        <h2>Top Models</h2>
+    </div>
+    <!--Model section-->
+    <div class="models"> 
+        <div class="model-cards">
+            <div class="card">
+                <img src="Mercedes.png" alt="Mercedese Model">
+                <h3>Mercedes Model</h3>
+                <p>Luxury and speed combined.</p>
+                <a href="mercedes.html" class="btn">View More</a> <!-- Link to the Mercedes page -->
+            </div>
+            <div class="card">
+                <img src="BMW.jpg" alt="BMW Model">
+                <h3>BMW Model</h3>
+                <p>Innovation at its best.</p>
+                <a href="BMW.html" class="btn">View More</a> <!-- Link to the BMW page-->
+            </div>
+
+            <div class="card">
+                <img src="Audi.png" alt="Audi Model">
+                <h3>Audi Model</h3>
+                <p>Experience elegance and power.</p>
+                <a href="Audi.html" class="btn">View More</a> <!-- Link to the Audi page-->
+            </div>
+
+            <div class="card">
+                <img src="LandRover.jpg" alt="Jaguar Model">
+                <h3>LandRover Model</h3>
+                <p>Freedom and performance in one.</p>
+                <a href="LandRover.html" class="btn">View More</a> <!-- Link to the LandRover page-->
+            </div>
+
+            <div class="card">
+                <img src="Bentley.png" alt="Bentley Model">
+                <h3>Bentley Model</h3>
+                <p>The ultimate driving machine.</p>
+                <a href="Bentley.html" class="btn">View More</a> <!-- Link to the Bentley page-->
+            </div>
+        </div>
+    </div>
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="LOGO.jpg" alt="Lancaster Knight Logo">
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="career.html">Careers</a></li>
+                        <li><a href="news.html">News</a></li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="Contactus.html">Contact Us</a></li>
+                        <li><a href="FAQs.html">FAQ</a></li>
+                        <li><a href="service (1).html">Service Centers</a></li>
+                       
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1EkCRPX2a9/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/L_K_Automotives?t=ewBstWvw-5_fxUpvRc3ubA&s=08"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/lancaster_and_knight_auto25?igsh=MTJ5OWJzdmZnZzN4bA=="><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCVNSBVpy6ab1dwwv6VgzooQ"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2025 Lancaster & Knight Automotive . All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+</body>
+</html>
