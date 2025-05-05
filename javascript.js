@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: "Jaguar Land Rover Resumes Exports to the U.S. Amid Tariff Challenges",
-            date: "May 5, 2025 IST:11:00 PM",
+            date: "May 5, 2025 IST:11:00 AM",
             content: "Jaguar Land Rover (JLR) has recommenced vehicle exports to the United States after a temporary halt caused by the imposition of a 25% tariff on imported cars by the U.S. government. The company is adapting to the new trade conditions while formulating long-term strategies to navigate the evolving tariff landscape."
         }
     ];
