@@ -27,19 +27,19 @@ suggestionsBox.appendChild(suggestionItem);
 document.addEventListener('DOMContentLoaded', () => {
     const newsArticles = [
         {
-            title: "Maruti Suzuki to Increase Car Prices by Up to 4% from April 2025",
-            date: "April 28, 2025 IST:8:00 AM", 
-            content :"Maruti Suzuki has announced a price hike of up to 4% across its vehicle lineup, effective from April 2025. The increase is attributed to rising input costs and regulatory requirements."
+            title: "India's Auto Retail Sales Rise by 2.95% in April",
+            date: "May 5, 2025 IST:8:00 AM", 
+            content :"India's automobile retail sales experienced a modest increase of 2.95% in April 2025, totaling 2,287,952 units, according to the Federation of Automobile Dealers Associations (FADA). This growth was primarily driven by the two-wheeler and passenger vehicle segments, while commercial vehicle sales remained relatively flat. The industry is closely monitoring the impact of the ongoing Lok Sabha elections on consumer sentiment and sales trends."
         },
         {
-            title: "Kia Carens Facelift Launch Confirmed for May 8",
-            date: "April 28, 2025 IST:12:00 PM",
-            content: "Kia India has announced that the updated 2025 Carens will debut on May 8. The facelifted model is expected to feature refreshed styling, new lighting elements, updated alloy wheels, and an enhanced feature list."
+            title: "BYD Unveils Sealion 7 Electric SUV in India",
+            date: "May 5, 2025 IST:9:00 AM",
+            content: "Chinese automaker BYD has introduced the Sealion 7, a premium electric SUV, in the Indian market. The vehicle boasts a range exceeding 500 km and features a high-quality cabin, aiming to compete with models like the Kia EV6 and Mercedes-Benz EQB. The Sealion 7 is part of BYD's strategy to strengthen its presence in India's growing EV sector."
         },
         {
-            title: "India's Hottest New Car Launches – EVs & Facelifts!",
-            date: "April 28, 2025 IST:3:00 PM",
-            content: "April 2025 has seen significant activity in the Indian automotive market, with major launches including Tata's Harrier EV, MG's Cyberster and M9 EV, Kia Carens facelift, and Volkswagen's Tiguan R-Line"
+            title: "Jaguar Land Rover Resumes Exports to the U.S. Amid Tariff Challenges",
+            date: "May 5, 2025 IST:11:00 PM",
+            content: "Jaguar Land Rover (JLR) has recommenced vehicle exports to the United States after a temporary halt caused by the imposition of a 25% tariff on imported cars by the U.S. government. The company is adapting to the new trade conditions while formulating long-term strategies to navigate the evolving tariff landscape."
         }
     ];
 
